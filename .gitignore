@@ -1,0 +1,61 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# VS Code & IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Auto-generated ChromaDB folder
+chroma_db/
+
+# PyInstaller artifacts
+*.spec
+dist/
+build/
+
+# Test cache
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+
+# MyPy / type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Streamlit app state
+.streamlit/
+
+# Coverage reports
+htmlcov/
+coverage.xml
+
+
+

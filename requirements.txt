@@ -1,0 +1,22 @@
+# Core backend
+fastapi
+uvicorn[standard]
+streamlit
+requests
+httpx
+python-dotenv
+
+# LangChain + vector DB
+langchain
+langchain-community
+chromadb
+
+# Embeddings
+sentence-transformers
+
+# Document loaders
+unstructured
+pandas
+
+# LLM (Ollama client)
+ollama
