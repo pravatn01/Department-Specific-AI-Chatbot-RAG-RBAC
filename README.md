@@ -71,17 +71,17 @@ cd Department-Specific-AI-Chatbot-RAG-RBAC
 # 2. Backend setup
 cd app
 python -m venv venv
-source venv/bin/activate    # or venv\Scripts\activate on Windows
+venv\Scripts\activate # On Windows
 pip install -r ../requirements.txt
 
 # Start Ollama LLaMA3 in another terminal
 ollama run llama3
 
-# Run FastAPI
-uvicorn main:app --reload
+# Run FastAPI backend
+uvicorn app.backend:app --reload
 
 # 3. Frontend
 streamlit run app/frontend.py
 
 # 4. Embed documents (run once)
-python app/embed_documents.py
+python app/vector_embeddings.py
