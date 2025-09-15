@@ -65,8 +65,8 @@ users_db = {
 
 ```bash
 # 1. Clone repo
-git clone https://github.com/sakshcc/role_based_aichatbot
-cd role_based_aichatbot
+git clone https://github.com/pravatn01/Department-Specific-AI-Chatbot-RAG-RBAC.git
+cd Department-Specific-AI-Chatbot-RAG-RBAC
 
 # 2. Backend setup
 cd app
